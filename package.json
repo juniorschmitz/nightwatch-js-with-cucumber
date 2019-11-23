@@ -1,0 +1,29 @@
+{
+  "name": "api-tools-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.conf.js --require features/step_definitions --format json:report/cucumber_report.json"
+  },
+  "keywords": [
+    "nodejs",
+    "cucumberjs",
+    "bdd",
+    "apitools",
+    "javascript"
+  ],
+  "author": "Jacques Schmitz",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-selenium": "^4.31.20",
+    "chromedriver": "^78.0.1",
+    "cucumber": "^6.0.3",
+    "cucumber-html-reporter": "^5.0.2",
+    "cucumber-pretty": "^6.0.0",
+    "faker": "^4.1.0",
+    "mkdirp": "^0.5.1",
+    "nightwatch": "^1.2.4",
+    "nightwatch-api": "^3.0.0"
+  }
+}
