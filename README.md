@@ -2,6 +2,8 @@
 
 Project created for testing the pages of the Hackaton of applitools just for training the Nightwatch-js with Cucumber-js.
 
+The project shows the power of the Nightwatch framework along with the great features of CucumberJS as a test runner and powerful specification using Gherkin syntax.
+
 For installing the dependencies, after cloning:
 ```
 npm install
